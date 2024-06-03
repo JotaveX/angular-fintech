@@ -1,0 +1,44 @@
+.sidenav-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.example-toolbar{
+   background-color: #ececf6;
+}
+
+.sidenav {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   background-color: #f8f9fa;
+   box-shadow: 1px 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.example-content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  padding: 20px;
+}
+
+.right-itens {
+  position: fixed;
+  right: 0;
+}
+
+* {
+  z-index: 9999;
+}
+
+.sidenav-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+}
